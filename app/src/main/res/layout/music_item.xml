@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="singer"
+        android:id="@+id/singer"
+        android:layout_below="@+id/songname"
+        android:textColor="#ffffff" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:text="songname"
+        android:id="@+id/songname"
+        android:layout_alignParentTop="true"
+        android:textColor="#ffffff" />
+
+
+</RelativeLayout>
